@@ -1,0 +1,139 @@
+/* @import url("https://fonts.googleapis.com/css2?family=poppins:wght@400;500;600&family=Ruda:wght@400;600;700bdisplay=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppings', sans-serif;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    min-height: 100%;
+    background: linear-gradient(135deg, #cf9aff, #95c0ff);
+    color: #fff;
+    padding-top: 4%;
+    padding-left: 10%;
+}
+.container h1{
+    display: flex;
+    align-items: center;
+    font-size: 35px;
+    font-weight: 600;
+}
+.container h1 img{
+    width: 60px;
+}
+.container button img{
+    width: 25px;
+    margin-right: 8px;
+}
+.container button img{
+    display: flex;
+    align-items: center;
+    background: linear-gradient( #9418fd, #571094);
+    color: #fff;
+    font-size: 16px;
+    outline: 0;
+    border: 0;
+    border-radius: 40px;
+    padding: 15px 25px;
+    margin: 30px 0 20px;
+    cursor: pointer;
+} */
+
+.container{
+    
+}
+
+.navBar{
+    background-color: olive ;
+    display: flex;
+}
+
+.navBarMenu{
+    display: flex;
+    gap: 5rem;
+    padding-top: 1rem;
+    padding-left: 45rem;
+    
+}
+.Btns{
+    padding-left: 30rem;
+    align-content: space-around;
+
+}
+/* .loginBtn{
+    font-size: 15px;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: green;
+    border-radius: 15px;
+    border: 2px black;
+    padding: 20px 40px;
+    color: white; */
+/* } */
+.Sign-upBtn{
+    font-size: 15px;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: green;
+    border-radius: 15px;
+    border: 2px black;
+    padding: 20px 40px;
+    color: white;
+}
+.heroSection{
+    display: flex;
+    flex-direction: row;
+}
+.words{
+    padding-top: 7rem;
+    font-size: xxx-large;
+    background-color: yellowgreen ;
+    display: flex;
+}
+.words span{
+    color: red;
+}
+.heroImg{
+    height: 80rem;
+    width: auto;
+}
+
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    background-color: olive;
+    justify-content: space-evenly;
+    cursor: pointer;
+}
+.firstDiv{
+    display: flex;
+    flex-direction: row;
+    gap: 0.3rem;
+    padding-left: 0;
+}
+footer p{
+    color: white;
+    font-size: 0.9rem;
+}
+
+.companyPara{
+    font-size: 0.9rem;
+}
+
+.input{   
+    background: gray;
+    border: none;
+    padding: 10px 35px 10px 10px;
+    border-radius: 7px;
+}
+
+input::placeholder{
+    color: aliceblue;
+    font-weight: 200;
+    font-size: 12px;
+    line-height: 20px;
+}
+
